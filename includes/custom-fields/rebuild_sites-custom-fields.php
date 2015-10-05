@@ -78,7 +78,7 @@ function cmb2_set_checkbox_default_for_new_post( $default ) {
  * @param  current post
  * @return array
  */
-if(! function_exists( 'rebuild_exhibition_fields' ) ) {
+if(! function_exists( 'rebuild_site_fields' ) ) {
 
     function rebuild_site_fields( ) {
 
