@@ -22,6 +22,29 @@ Custom Fields
 * location
 * hours
 
+Usage: 
+Fields can be accessed using the function rebuild_site_fields()
+e.g. `$site_fields = rebuild_site_fields()`
+e.g. `echo "$site_fields['street']"`
+
+Returns:
+array(10) {
+  ["id"]=>int(267)
+  ["street"]=>string(25) ""
+  ["street2"]=>string(0) ""
+  ["city"]=>string(7) ""
+  ["state"]=>string(2) ""
+  ["zip"]=>string(0) ""
+  ["hours"]=>string(39) ""
+  ["gallery"]=>
+  array(1) {
+    [290]=>string(61) "http://rebuild.site/wp-content/uploads/2015/10/volunteer.jpeg"
+  }
+  ["category"]=>string(22) ""
+  ["show_blog_posts"]=>string(2) "on"
+}
+
+
 Exhibitions: `rebuild_exhibitions`
 
 Custom Taxonomies: n/a (uses build-in taxonomy and `rebuild_sites_category`)
